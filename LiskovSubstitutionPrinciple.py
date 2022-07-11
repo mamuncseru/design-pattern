@@ -53,3 +53,5 @@ use_it(rc)
     
 sq = Square(5)
 use_it(sq)
+
+# added a small comment to test github
