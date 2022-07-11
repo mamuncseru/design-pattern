@@ -1,5 +1,10 @@
 # Single Response Principle
-
+"""
+Single Responsibility Principle
+    -> A class should only have one reason to change
+    -> Separation of concerns - different classes handling 
+        different, independent tasks/problem
+"""
 class Journal:
     def __init__(self):
         self.entries = []
