@@ -1,4 +1,10 @@
 # DIP
+
+"""
+Dependency Inversion Principle
+    -> High-level modules should not depend upon low-level ones; use abstractions
+"""
+
 from abc import abstractmethod
 from enum import Enum
 
