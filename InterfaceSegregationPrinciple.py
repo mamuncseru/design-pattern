@@ -1,6 +1,9 @@
-#ISP
+"""
+Interface Segregation Principle
+    -> Don't put too much into an interface; split into separate interfaces
+    -> YAGNI - You Ain't Going to Need it
+"""
 from abc import abstractmethod
-from site import abs_paths
 
 
 class Machine:
@@ -83,4 +86,3 @@ class MultiFunctionMachine(MultiFunctionDevice):
     def scan(self, document):
         self.scanner.scan(document)
 
-        
